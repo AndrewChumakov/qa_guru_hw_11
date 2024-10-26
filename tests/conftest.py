@@ -15,7 +15,8 @@ def browser_driver():
         "browserName": "chrome",
         "browserVersion": "126.0",
         "selenoid:options": {
-            "enableVideo": False
+            "enableVNC": True,
+            "enableVideo": True
         }
     }
 
